@@ -41,9 +41,11 @@ This project transforms raw cocktail data into powerful network insights:
 
 Place these files in a `data/` folder:
 
+```text
 data/
 ├── drinks.csv      ← Raw recipes (drink name + strIngredient1..15)
 └── cleaning.csv    ← Id (raw), standardized_name, category
+```
 
 > Example `cleaning.csv`:
 > ```csv
@@ -103,7 +105,5 @@ cocktail-network-analysis/
 ├── data/
 │   ├── drinks.csv                ← Raw cocktail data
 │   └── cleaning.csv              ← Ingredient mapping
-├── requirements.txt              ← Python dependencies
 ├── README.md                     ← This file
-└── LICENSE                       ← MIT License
 ```
